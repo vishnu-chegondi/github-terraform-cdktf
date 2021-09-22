@@ -1,7 +1,9 @@
 {
   "language": "python",
   "app": "pipenv run python main.py",
-  "terraformProviders": [],
+  "terraformProviders": [
+    "integrations/github@~> 4.14.0"
+  ],
   "terraformModules": [],
   "codeMakerOutput": "imports",
   "context": {
