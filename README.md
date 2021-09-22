@@ -9,14 +9,14 @@ This repo contains the getting started code to use terraform CDKTF which uses th
 
 ### Setting Up CDKTF
 
-```
-<!-- Create an empty directory -->
+```shell
+# Create an empty directory
 mkdir github-terraform-cdktf
 
-<!-- Navigate to github-terraform-cdktf -->
+# Navigate to github-terraform-cdktf
 cd github-terraform-cdktf
 
-<!-- Run cdktf init with python template and terraform backend as local to initialise cdktf directory with required modules installed and pipenv environment-->
+# Run cdktf init with python template and terraform backend as local to initialise cdktf directory with required modules installed and pipenv environment
 cdktf init --template="python" --local
 ```
 
