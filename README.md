@@ -26,6 +26,10 @@ To install github provider include ```integrations/github@~> 4.14.0``` in cdktf.
 cdktf get
 ```
 
+### Authentication
+
+To authenticate to github we need to create a personal token or app token with all required permissions and set GITHUB_TOKEN.
+
 ### Generating resource configuration
 
 The following command creates resouce configurations in json format in cdktf.out.
